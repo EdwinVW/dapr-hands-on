@@ -73,7 +73,7 @@ Make sure you have the following prerequisites installed on your machine:
 
 If you haven't installed Dapr stand-alone yet on your machine, first do that. If you already installed it, you can skip this.
 
-1. Make sure you have docker for desktop running on your machine.
+1. Make sure you have installed all prerequisites and docker for desktop is running on your machine.
 
 2. Open a new command-shell window.
 
