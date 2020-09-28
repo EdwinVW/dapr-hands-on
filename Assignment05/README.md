@@ -34,8 +34,12 @@ In order to complete this assignment, the following goals must be met:
 
 First open the `Assignment 5` folder in this repo in VS Code. Then open the [Dapr documentation](https://github.com/dapr/docs) and start hacking away. Make sure you use the default Redis pub/sub component provided out of the box by dapr.
 
-## Next assignment
-
-Make sure you stop all running processes before proceeding to the next assignment.
+## Step by step instructions
 
 To get step-by-step instructions to achieve the goals, open the [step-by-step instructions](step-by-step.md).
+
+## Final solution
+
+You have reached the end of the hands-on assignments. If you look at the solution in the `Final` folder in this repo, you can see the code as it should be after finishing assignment 5.
+
+Thanks for participating in these hands-on assignments! Hopefully you've learned about Dapr and how to use it. Obviously, these assignment barely scratch te surface of what is possible with Dapr. We have not touched upon subjects like: *security*, *bindings*, integration with *Azure Functions* and *Azure Logic Apps* just to name a few. So if you're interested in learning more, I suggest you read the [Dapr documentation](https://github.com/dapr/docs).
