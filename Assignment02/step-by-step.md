@@ -113,7 +113,7 @@ In order to make sure the Dapr client is injected into the VehicleEntry method, 
 
 ## Step 3: Test the application
 
-Now you're going to start the TrafficControl service. This service does not need to run with a Dapr sidecar because it uses the Dapr client directly. Later you're going to add a side-car to this service.
+Now you're going to start the TrafficControl service with a Dapr side-car:
 
 1. Make sure the Government service is (still) running with the Dapr side-car (as you did in step 1).
 
