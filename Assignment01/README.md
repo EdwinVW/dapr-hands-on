@@ -68,4 +68,6 @@ Now we know the application runs correctly. It's time to start adding Dapr to th
 
 ## Next assignment
 
+Make sure you stop all running processes before proceeding to the next assignment.
+
 Go to [assignment 2](../Assignment02/README.md).
