@@ -7,7 +7,7 @@ This repository contains several hands-on assignments that will introduce you to
 - Publish / Subscribe
 - Secrets
 
-For the assignments, you will be using Dapr in stad-alone mode. As a stretch goal, we added a last assignment that will ask you to run the Dapr application on Kubernetes.
+For the assignments, you will be using Dapr in stand-alone mode. As a stretch goal, we added a last assignment that will ask you to run the Dapr application on Kubernetes.
 
 ## The domain
 

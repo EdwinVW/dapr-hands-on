@@ -68,7 +68,7 @@ Each one of these components is configured using a yaml file in a well known loc
          value: ""
    ```
 
-   This is how you configure Dapr components. They have a name which you can use in your code to secify the component to use (remember the `pubsub` name you used in the previous assignment when publishing or subscribing to a pub/sub topic). They also have a type (to specify the building-block (pub/sub in this case) and component (Redis in this case)).
+   This is how you configure Dapr components. They have a name which you can use in your code to specify the component to use (remember the `pubsub` name you used in the previous assignment when publishing or subscribing to a pub/sub topic). They also have a type (to specify the building-block (pub/sub in this case) and component (Redis in this case)).
 
 3. Create a new file in the components folder named `statestore.yaml` and paste this snippet into the file:
 
