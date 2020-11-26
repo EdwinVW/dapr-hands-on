@@ -11,7 +11,7 @@ For the assignments, you will be using Dapr in stand-alone mode. As a stretch go
 
 ## The domain
 
-For the assignments you will be working with a speeding-camera setup as can be found on several Dutch highways. Over the entire stretch of a certain stretch of highway, the average speed of a vehicle is measured and if it is above the speeding limit on this highway, the driver of the vehicle receives a speeding ticket.
+For the assignments you will be working with a speeding-camera setup as can be found on several Dutch highways. Over the entire length of a certain stretch of highway, the average speed of a vehicle is measured and if it is above the speeding limit on this highway, the driver of the vehicle receives a speeding ticket.
 
 ### Overview
 
@@ -68,6 +68,7 @@ Make sure you have the following prerequisites installed on your machine:
 - Visual Studio Code ([download](https://code.visualstudio.com/download))
 - Docker for desktop ([download]())
 - Dapr CLI 1.0.0 RC2 ([download](https://github.com/dapr/cli/releases/tag/v1.0.0-rc.2))
+- Dapr Runtime 1.0.0 RC1
 
 ### Install Dapr
 
