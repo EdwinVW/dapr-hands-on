@@ -40,16 +40,16 @@ First you're going to add a reference to the Dapr libraries for .NET:
 
 2. Open a new command-shell window and go to the `Assignment02/src/TrafficControlService` folder in this repo.
 
-3. Add a reference to the Dapr client for .NET version 0.10.0-preview01:
+3. Add a reference to the Dapr client for .NET version 0.12.0-preview01:
 
    ```
-   dotnet add package Dapr.Client -v 0.10.0-preview01
+   dotnet add package Dapr.Client -v 0.12.0-preview01
    ```
 
-4. Add a reference to the Dapr ASP.NET Core integration library version 0.10.0-preview01:
+4. Add a reference to the Dapr ASP.NET Core integration library version 0.12.0-preview01:
 
    ```
-   dotnet add package Dapr.AspNetCore -v 0.10.0-preview01
+   dotnet add package Dapr.AspNetCore -v 0.12.0-preview01
    ```
 
 5. Restore all references:

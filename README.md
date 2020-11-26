@@ -67,7 +67,7 @@ Make sure you have the following prerequisites installed on your machine:
 - .NET Core 3.1 ([download](https://dotnet.microsoft.com/download/dotnet-core/3.1))
 - Visual Studio Code ([download](https://code.visualstudio.com/download))
 - Docker for desktop ([download]())
-- Dapr CLI 0.10.0 ([download](https://github.com/dapr/cli/releases/tag/v0.10.0))
+- Dapr CLI 1.0.0 RC2 ([download](https://github.com/dapr/cli/releases/tag/v1.0.0-rc.2))
 
 ### Install Dapr
 
@@ -80,7 +80,7 @@ If you haven't installed Dapr stand-alone yet on your machine, first do that. If
 3. enter the following command:
 
    ```
-   dapr init
+   dapr init --runtime-version 1.0.0-rc.1
    ```
 
 4. Check the logging for errors.
