@@ -125,7 +125,7 @@ Each one of these components is configured using a yaml file in a well known loc
      name: local-secret-store
      namespace: default
    spec:
-     type: secretstores.local.localsecretstore
+     type: secretstores.local.file
      metadata:
        - name: secretsFile
          value: components/secrets.json
