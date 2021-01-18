@@ -10,11 +10,10 @@ In order to complete this assignment, the following goals must be met:
 
 ## Step 1: Add a secret-store component
 
-Before you can use the Dapr secret-store from the services, we first have to add this component to the Dapr configuration. By default, when you install Dapr there are 3 components installed:
+Before you can use the Dapr secret-store from the services, we first have to add this component to the Dapr configuration. By default, when you install Dapr there are 2 components installed:
 
 - pub/sub (Redis cache)
 - State-store (Redis cache)
-- Observability (Zipkin)
 
 Each one of these components is configured using a yaml file in a well known location (e.g. on Windows this is the `.dapr/components` folder in your user's profile folder). By default, Dapr uses these config files when starting an application with a Dapr sidecar. But you can specify a different location on the command-line. You will do that later when you're testing the application and therefore you are going to create a custom components folder for the TrafficControl service.
 
