@@ -68,7 +68,7 @@ Make sure you have the following prerequisites installed on your machine:
 - Visual Studio Code ([download](https://code.visualstudio.com/download))
 - Docker for desktop ([download]())
 - Dapr CLI 1.0.0 RC2 ([download](https://github.com/dapr/cli/releases/tag/v1.0.0-rc.2))
-- Dapr Runtime 1.0.0 RC1
+- Dapr Runtime 1.0.0 RC2
 
 ### Install Dapr
 
@@ -81,7 +81,7 @@ If you haven't installed Dapr stand-alone yet on your machine, first do that. If
 3. enter the following command:
 
    ```
-   dapr init --runtime-version 1.0.0-rc.1
+   dapr init --runtime-version 1.0.0-rc.2
    ```
 
 4. Check the logging for errors.

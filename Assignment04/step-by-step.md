@@ -77,10 +77,10 @@ This is the receiving part done. Now you need to update the simulation so that i
    dotnet remove package System.Net.Http
    ```
 
-3. Add a reference to the Dapr client for .NET version 0.12.0-preview01:
+3. Add a reference to the Dapr client:
 
    ```
-   dotnet add package Dapr.Client -v 0.12.0-preview01
+   dotnet add package Dapr.Client -v 1.0.0-rc02
    ```
 
 4. Restore all references:

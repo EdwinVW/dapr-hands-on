@@ -8,7 +8,6 @@ using TrafficControlService.Events;
 using TrafficControlService.Helpers;
 using TrafficControlService.Models;
 using Dapr.Client;
-using Dapr.Client.Http;
 
 namespace TrafficControlService.Controllers
 {
@@ -41,7 +40,7 @@ namespace TrafficControlService.Controllers
             var vehicleInfo = await daprClient.InvokeMethodAsync<VehicleInfo>(
                "governmentservice",
                $"rdw/vehicle/{msg.LicenseNumber}",
-               new HTTPExtension { Verb = HTTPVerb.Get });
+               new HttpInvocationOptions { Method = HttpMethod.Get });
 
             // log entry
             _logger.LogInformation($"ENTRY detected in lane {msg.Lane} at {msg.Timestamp.ToString("hh:mm:ss")}: " +

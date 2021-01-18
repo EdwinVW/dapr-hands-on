@@ -38,21 +38,15 @@ First you're going to add a reference to the Dapr libraries for .NET:
 
 1. Open the `Assignment 2` folder in this repo in VS Code.
 
-2. Open a new command-shell window and go to the `Assignment02/src/TrafficControlService` folder in this repo.
+1. Open a new command-shell window and go to the `Assignment02/src/TrafficControlService` folder in this repo.
 
-3. Add a reference to the Dapr client for .NET version 0.12.0-preview01:
-
-   ```
-   dotnet add package Dapr.Client -v 0.12.0-preview01
-   ```
-
-4. Add a reference to the Dapr ASP.NET Core integration library version 0.12.0-preview01:
+1. Add a reference to the Dapr ASP.NET Core integration library:
 
    ```
-   dotnet add package Dapr.AspNetCore -v 0.12.0-preview01
+   dotnet add package Dapr.AspNetCore -v 1.0.0-rc02
    ```
 
-5. Restore all references:
+1. Restore all references:
 
    ```
    dotnet restore
@@ -83,7 +77,7 @@ Now you're going to use the Dapr client to make the call to the Government servi
    var vehicleInfo = await daprClient.InvokeMethodAsync<VehicleInfo>(
       "governmentservice",
       $"rdw/vehicle/{msg.LicenseNumber}",
-      new HTTPExtension { Verb = HTTPVerb.Get });
+      new HttpInvocationOptions { Method = HttpMethod.Get });
    ```
 
 Now the Dapr client is used to directly call a method on the Government service. Dapr will figure out where the service lives and handle the communication.
